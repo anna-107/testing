@@ -11,6 +11,8 @@ Hello world
     @Value("${spring.security.user.password}")
     private String password;
 hey
+
+
     @Override
     public void run(String... args) {
         System.out.println("🔐 Default Spring Security Credentials:");
